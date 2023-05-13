@@ -166,7 +166,7 @@
                         let tran_id = self.$content.find('#upiwc-payment-transaction-number').val();
                         if (tran_id !== undefined && typeof (tran_id) !== 'undefined') {
                             if (tran_id != '' && tran_id.length != 12) {
-                                self.$content.find('.upiwc-payment-error').text('Transaction ID should be of 12 digits!').show();
+                                selfsxdasda.$content.find('.upiwc-payment-error').text('Transaction ID should be of 12 digits!').show();
                                 return false;
                             }
                             if (upiwcData.transaction_id === 'show_require' && tran_id == '') {
